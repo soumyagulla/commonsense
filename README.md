@@ -1,3 +1,6 @@
+## The main objective of this project is to find the commonsense validation and evaluation of the semeval task 2020 for Task A.
+Given a set of two sentences, this project finds which sentence makes sense and which sentence does not makes sense.
+
 
 ## Installing
 # on windows
@@ -38,6 +41,8 @@ usage: main.py    [--mode 'predict']
 
 
 usage: main.py    [--mode 'getAcc']
+
+## Role of Each Team Member
 Indumathy Sandrasekaran: Training and Estimating
 Soumya Gulla: Estimating and Accuracy
 
