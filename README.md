@@ -38,5 +38,6 @@ usage: main.py    [--mode 'predict']
 
 
 usage: main.py    [--mode 'getAcc']
-
+Indumathy Sandrasekaran: Training and Estimating
+Soumya Gulla: Estimating and Accuracy
 
