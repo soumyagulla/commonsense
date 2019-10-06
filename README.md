@@ -34,7 +34,7 @@ usage: main.py    [--mode 'predict']
                   [--sentence 'He drinks milk']
                   
 
-## get Accracy
+## get Accuracy
 
 
 usage: main.py    [--mode 'getAcc']
