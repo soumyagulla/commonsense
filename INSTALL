@@ -1,6 +1,10 @@
-## Run the following commands after copying the Folder and extracting the folder on to the new linux server.
-cd project
+## Download the rar VCU-CMSC516-Task4 Folder and extract the VCU-CMSC516-Task4 folder on to the new linux server.
+## Click onto the folder and open a terminal and navigate to the following path.
+cd VCU-CMSC516-Task4
 cd dist
+## Run the following commands
+#test predict
+sh runit.sh -t "He drinks milk" -p "../../Model"
 sh main.sh
 ## Script to run the model estimation for n number of lines. The actual file size is for 10000 lines.
 ## Running the program for first 4000 lines of the data set
