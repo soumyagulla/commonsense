@@ -44,5 +44,5 @@ usage: main.py    [--mode 'getAcc']
 
 ## Role of Each Team Member
 Indumathy Sandrasekaran: Training and Estimating
-Soumya Gulla: Estimating and Accuracy
+Soumya Gulla: Predicting and Accuracy
 
