@@ -1,4 +1,4 @@
-## Run the following commands after copying the Project folder
+## Run the following commands after copying the Folder and extracting the folder on to the new linux server.
 cd project
 cd dist
 sh main.sh
