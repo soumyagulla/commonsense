@@ -3,6 +3,9 @@ cd project
 cd dist
 sh main.sh
 ## Script to run the model estimation for n number of lines. The actual file size is for 10000 lines.
-sh main.sh -p "../../Model" -m "estimate" -s "../../data_all.csv" -o "../" -n 1000
+## Running the program for first 4000 lines of the data set
+sh main.sh -p "../../Model" -m "estimate" -s "../../data_all.csv" -o "../" -n 4000
+## Running the program for 10000 lines of the data set
+sh main.sh -p "../../Model" -m "estimate" -s "../../data_all.csv" -o "../" -n 10000
 ## to find the accuracy of the project
 sh main.sh  -m "getAcc" -a "../../taskA_answers_all.csv" -o "../"
