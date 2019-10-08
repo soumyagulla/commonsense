@@ -1,5 +1,8 @@
 ## The main objective of this project is to find the commonsense validation and evaluation of the semeval task 2020 for Task A.
 Given a set of two sentences, this project finds which sentence makes sense and which sentence does not makes sense.
+For instance, consider two senteces as 
+Sentence 1 : he put a turkey into the fridge
+Sentence 2 : he put an elephant into the fridge, out of these two sentences only the first sentence makes sense and it has to be identified as the correct sentence.
 
 
 ## Installing
@@ -44,5 +47,5 @@ usage: main.py    [--mode 'getAcc']
 
 ## Role of Each Team Member
 Indumathy Sandrasekaran: Training and Estimating
-Soumya Gulla: Predicting and Accuracy
+Soumya Gulla: Estimating Predicting and Accuracy
 
