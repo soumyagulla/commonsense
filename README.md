@@ -1,5 +1,7 @@
 ## The main objective of this project is to find the commonsense validation and evaluation of the semeval task 2020 for Task A.
 Given a set of two sentences, this project finds which sentence makes sense and which sentence does not makes sense.
+For instance consider two sentences sentence 1 : he put a turkey into the fridge sentence 2 : he put an elephant into the fridge
+Out of these two sentences sentence 1 makes sense and it has to be identified as the correct sentence that makes sense.
 
 
 ## Installing
