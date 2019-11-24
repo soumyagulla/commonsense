@@ -1,9 +1,9 @@
 ## The main objective of this project is to find the commonsense validation and evaluation of the semeval task 2020 for Task A.
 Given a set of two sentences, this project finds which sentence makes sense and which sentence does not makes sense.
 For instance consider two sentences:
-# sentence 1 : 
+sentence 1 : 
 he put a turkey into the fridge 
-# sentence 2 : 
+sentence 2 : 
 he put an elephant into the fridge
 
 Out of these two sentences sentence 1 makes sense and it has to be identified as the correct sentence that makes sense.From the above sentences, "he put a turkey into the fridge" and "he put an elephant into the fridge", the first sentence makes sense and the system is expected to predict this statement as the correct one. Moreover, both the sentences are similar in syntactic structure and they usually differ by few words.For instance, in the above sentences, they only differ by the words "elephant" and "turkey" whereas the rest of the sentences are similar. For common sense validation task, we identify the words that are different in both the correct sentence and against common sense sentence. For instance, in the sentences "he put an elephant into the fridge" and "he put a turkey into the fridge", elephant and turkey are different words and rest of the sentences sound similar. By identifying different words, we get an idea of how the correct statements and against commonsense statements are different from each other.
